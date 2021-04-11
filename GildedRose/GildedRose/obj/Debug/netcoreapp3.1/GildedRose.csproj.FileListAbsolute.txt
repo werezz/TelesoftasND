@@ -1,0 +1,12 @@
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.exe
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.deps.json
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.runtimeconfig.json
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.runtimeconfig.dev.json
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.dll
+C:\work\TelesoftasND\GildedRose\GildedRose\bin\Debug\netcoreapp3.1\GildedRose.pdb
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.AssemblyInfoInputs.cache
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.AssemblyInfo.cs
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.csproj.CoreCompileInputs.cache
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.dll
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.pdb
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.genruntimeconfig.cache

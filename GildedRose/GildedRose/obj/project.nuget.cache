@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uEwD2YxhbSUk8tifwmoyLx2PA/oMZCHUbJuYJtfCt9FD6Tb2uaXJAz6BO4aCGwUVbqbOqY+GGTspnl5eOQMfTg==",
+  "success": true,
+  "projectFilePath": "C:\\work\\TelesoftasND\\GildedRose\\GildedRose\\GildedRose.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.13\\microsoft.netcore.app.host.win-x86.3.1.13.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Vartotojas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
