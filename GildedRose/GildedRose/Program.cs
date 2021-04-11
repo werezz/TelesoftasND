@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GildedRose.Items;
+using System;
 using System.Collections.Generic;
 
 namespace GildedRose
@@ -37,14 +38,22 @@ namespace GildedRose
 				new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
 
-            var common = new CommonItem();
-            var legendary = new LegendaryItem();
+            //var common = new CommonItem("+5 Dexterity Vest",10,20);
+            //var legendary = new LegendaryItem("Sulfuras, Hand of Ragnaros",0,80);
 
-            IList<IItemProcessor> testPro = new List<IItemProcessor>();
-            testPro.Add(common);
-            testPro.Add(legendary);
+            IList<IItemProcessor> testPro = new List<IItemProcessor> {
+                new CommonItem("+5 Dexterity Vest", 10, 20),
+                new AgedItem("Aged Brie",2,0),
+                new LegendaryItem("Sulfuras, Hand of Ragnaros", 0, 80),
+                new BackstageItem("Backstage passes to a TAFKAL80ETC concert",15,20),
+                new ConjuredItem("Conjured Mana Cake",3,6)};
+            //testPro.Add(common);
+            //testPro.Add(legendary);
             testPro[0].UpdateQuality();
             testPro[1].UpdateQuality();
+            testPro[2].UpdateQuality();
+            testPro[3].UpdateQuality();
+            testPro[4].UpdateQuality();
 
             var itemProcessor = new GildedRoseProcess(Items);
 

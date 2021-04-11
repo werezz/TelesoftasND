@@ -10,3 +10,4 @@ C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.cs
 C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.dll
 C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.pdb
 C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.genruntimeconfig.cache
+C:\work\TelesoftasND\GildedRose\GildedRose\obj\Debug\netcoreapp3.1\GildedRose.csprojAssemblyReference.cache

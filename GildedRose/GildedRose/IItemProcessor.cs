@@ -1,6 +1,4 @@
-﻿
-
-namespace GildedRose
+﻿namespace GildedRose
 {
     public interface IItemProcessor
     {

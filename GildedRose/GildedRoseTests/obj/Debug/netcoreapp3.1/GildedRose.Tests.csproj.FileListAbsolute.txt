@@ -117,10 +117,6 @@ C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\System.T
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\System.Threading.AccessControl.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\TextCopy.dll
-C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
-C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\xunit.assert.dll
-C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\xunit.core.dll
-C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -240,3 +236,10 @@ C:\work\TelesoftasND\GildedRose\GildedRoseTests\obj\Debug\netcoreapp3.1\GildedRo
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\obj\Debug\netcoreapp3.1\GildedRose.Tests.dll
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\obj\Debug\netcoreapp3.1\GildedRose.Tests.pdb
 C:\work\TelesoftasND\GildedRose\GildedRoseTests\obj\Debug\netcoreapp3.1\GildedRose.Tests.genruntimeconfig.cache
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\work\TelesoftasND\GildedRose\GildedRoseTests\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
