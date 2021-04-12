@@ -2,7 +2,7 @@
 
 namespace GildedRose
 {
-    class CommonItem : Item, IItemProcessor
+    public class CommonItem : Item, IItemProcessor
     {
         public CommonItem(string name, int sellIn, int quality)
         {
@@ -17,10 +17,12 @@ namespace GildedRose
             --SellIn;    
         }
 
-        public void ShowItemInfo()
+        public string ShowItemInfo()
         {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
             Console.WriteLine("");
+
+            return Name + ", " + SellIn + ", " + Quality;
         }
 
         private int UpdateCommonItemQuality()

@@ -23,7 +23,6 @@ namespace GildedRose
 
             var itemProcessor = new GildedRoseProcess(items);
 
-
             for (var i = 0; i < Constants.MonthCycle; i++)
             {
                 Console.WriteLine("-------- day " + i + " --------");

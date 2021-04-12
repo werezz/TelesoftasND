@@ -2,7 +2,7 @@
 
 namespace GildedRose.Items
 {
-    class AgedItem:Item, IItemProcessor
+    public class AgedItem:Item, IItemProcessor
     {
         public AgedItem(string name, int sellIn, int quality)
         {
@@ -17,10 +17,12 @@ namespace GildedRose.Items
             --SellIn;
         }
 
-        public void ShowItemInfo()
+        public string ShowItemInfo()
         {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
             Console.WriteLine("");
+
+            return Name + ", " + SellIn + ", " + Quality;
         }
 
         private int UpdateAgedItemQuality()

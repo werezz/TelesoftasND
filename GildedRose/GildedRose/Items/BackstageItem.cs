@@ -2,7 +2,7 @@
 
 namespace GildedRose
 {
-    class BackstageItem:Item, IItemProcessor
+    public class BackstageItem:Item, IItemProcessor
     {
         public BackstageItem(string name, int sellIn, int quality)
         {
@@ -17,10 +17,12 @@ namespace GildedRose
             --SellIn;
         }
 
-        public void ShowItemInfo()
+        public string ShowItemInfo()
         {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
             Console.WriteLine("");
+
+            return Name + ", " + SellIn + ", " + Quality;
         }
 
         private int UpdateBackstageItemQuality()
@@ -29,15 +31,15 @@ namespace GildedRose
             {
                 ++Quality;
 
-                if (CheckIfSellInIsTenDaysLeft())
+                if (CheckIfSellInIsFiveDaysLeft())
                 {
                     if (CheckIfQualityIsLessThenMax())
                     {
-                        return ++Quality;
+                        return Quality += 2;
                     }
                 }
 
-                if (CheckIfSellInIsFiveDaysLeft())
+                if (CheckIfSellInIsTenDaysLeft())
                 {
                     if (CheckIfQualityIsLessThenMax())
                     {
