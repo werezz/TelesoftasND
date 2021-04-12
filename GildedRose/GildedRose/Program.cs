@@ -34,26 +34,19 @@ namespace GildedRose
                     SellIn = 5,
                     Quality = 49
                 },
-				// this conjured item does not work properly yet
 				new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
             };
-
-            //var common = new CommonItem("+5 Dexterity Vest",10,20);
-            //var legendary = new LegendaryItem("Sulfuras, Hand of Ragnaros",0,80);
 
             IList<IItemProcessor> testPro = new List<IItemProcessor> {
                 new CommonItem("+5 Dexterity Vest", 10, 20),
                 new AgedItem("Aged Brie",2,0),
+                new CommonItem("Elixir of the Mongoose",5,7),
                 new LegendaryItem("Sulfuras, Hand of Ragnaros", 0, 80),
+                new LegendaryItem("Sulfuras, Hand of Ragnaros", -1, 80),
                 new BackstageItem("Backstage passes to a TAFKAL80ETC concert",15,20),
+                new BackstageItem("Backstage passes to a TAFKAL80ETC concert",10,49),
+                new BackstageItem("Backstage passes to a TAFKAL80ETC concert",5,49),
                 new ConjuredItem("Conjured Mana Cake",3,6)};
-            //testPro.Add(common);
-            //testPro.Add(legendary);
-            testPro[0].UpdateQuality();
-            testPro[1].UpdateQuality();
-            testPro[2].UpdateQuality();
-            testPro[3].UpdateQuality();
-            testPro[4].UpdateQuality();
 
             var itemProcessor = new GildedRoseProcess(Items);
 

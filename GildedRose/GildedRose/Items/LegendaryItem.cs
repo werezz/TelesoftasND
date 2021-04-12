@@ -13,7 +13,9 @@ namespace GildedRose
 
         public void UpdateQuality()
         {
-            Console.WriteLine("Legendary item processed");
+            Console.Write(Name + ", " + SellIn + ", " + Quality);
+
+            Console.WriteLine(" Legendary item processed");
         }
     }
 }

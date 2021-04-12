@@ -13,7 +13,36 @@ namespace GildedRose.Items
 
         public void UpdateQuality()
         {
-            Console.WriteLine("Aged item processed");
+            UpdateAgedItemQuality();
+            --SellIn;
+
+            Console.Write(Name + ", " + SellIn + ", " + Quality);
+
+            Console.WriteLine(" Aged item processed");
+        }
+
+        private int UpdateAgedItemQuality()
+        {
+            if (SellIn <= 0 && !CheckIfItemQualityIsMax())
+            {
+                return Quality += 2;
+            }
+            else if (Quality > 0 && CheckIfItemQualityIsMax())
+            {
+                return Quality = Constants.MaxItemQuality;
+            }
+
+            return ++Quality;
+        }
+    
+        private bool CheckIfItemQualityIsMax()
+        {
+            if (Quality >= Constants.MaxItemQuality)
+            {  
+                return true;
+            }
+
+            return false;
         }
     }
 }
