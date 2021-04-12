@@ -15,10 +15,12 @@ namespace GildedRose.Items
         {
             UpdateAgedItemQuality();
             --SellIn;
+        }
 
+        public void ShowItemInfo()
+        {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
-
-            Console.WriteLine(" Aged item processed");
+            Console.WriteLine("");
         }
 
         private int UpdateAgedItemQuality()

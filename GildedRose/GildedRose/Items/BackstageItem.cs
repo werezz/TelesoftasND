@@ -13,12 +13,14 @@ namespace GildedRose
 
         public void UpdateQuality()
         {
-
             UpdateBackstageItemQuality();
             --SellIn;
+        }
 
+        public void ShowItemInfo()
+        {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
-            Console.WriteLine(" Backstage item processed");
+            Console.WriteLine("");
         }
 
         private int UpdateBackstageItemQuality()
@@ -56,6 +58,7 @@ namespace GildedRose
                 return true;
             return false;
         }
+
         private bool CheckIfSellInIsFiveDaysLeft()
         {
             if (SellIn < 6)

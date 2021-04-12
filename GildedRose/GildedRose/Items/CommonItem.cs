@@ -14,10 +14,13 @@ namespace GildedRose
         public void UpdateQuality()
         {
             UpdateCommonItemQuality();
-            --SellIn;
+            --SellIn;    
+        }
 
+        public void ShowItemInfo()
+        {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
-            Console.WriteLine(" Common item processed");      
+            Console.WriteLine("");
         }
 
         private int UpdateCommonItemQuality()

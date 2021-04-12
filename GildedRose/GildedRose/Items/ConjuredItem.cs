@@ -15,9 +15,12 @@ namespace GildedRose
         {
             UpdateCommonItemQuality();
             --SellIn;
+        }
 
+        public void ShowItemInfo()
+        {
             Console.Write(Name + ", " + SellIn + ", " + Quality);
-            Console.WriteLine(" Conjured item processed");
+            Console.WriteLine("");
         }
 
         private int UpdateCommonItemQuality()

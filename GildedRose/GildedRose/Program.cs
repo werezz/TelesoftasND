@@ -10,34 +10,7 @@ namespace GildedRose
         {
             Console.WriteLine("OMGHAI!");
 
-            IList<Item> Items = new List<Item>{
-                new Item {Name = "+5 Dexterity Vest", SellIn = 10, Quality = 20},
-                new Item {Name = "Aged Brie", SellIn = 2, Quality = 0},
-                new Item {Name = "Elixir of the Mongoose", SellIn = 5, Quality = 7},
-                new Item {Name = "Sulfuras, Hand of Ragnaros", SellIn = 0, Quality = 80},
-                new Item {Name = "Sulfuras, Hand of Ragnaros", SellIn = -1, Quality = 80},
-                new Item
-                {
-                    Name = "Backstage passes to a TAFKAL80ETC concert",
-                    SellIn = 15,
-                    Quality = 20
-                },
-                new Item
-                {
-                    Name = "Backstage passes to a TAFKAL80ETC concert",
-                    SellIn = 10,
-                    Quality = 49
-                },
-                new Item
-                {
-                    Name = "Backstage passes to a TAFKAL80ETC concert",
-                    SellIn = 5,
-                    Quality = 49
-                },
-				new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
-            };
-
-            IList<IItemProcessor> testPro = new List<IItemProcessor> {
+            IList<IItemProcessor> items = new List<IItemProcessor> {
                 new CommonItem("+5 Dexterity Vest", 10, 20),
                 new AgedItem("Aged Brie",2,0),
                 new CommonItem("Elixir of the Mongoose",5,7),
@@ -48,16 +21,16 @@ namespace GildedRose
                 new BackstageItem("Backstage passes to a TAFKAL80ETC concert",5,49),
                 new ConjuredItem("Conjured Mana Cake",3,6)};
 
-            var itemProcessor = new GildedRoseProcess(Items);
+            var itemProcessor = new GildedRoseProcess(items);
 
 
-            for (var i = 0; i < 31; i++)
+            for (var i = 0; i < Constants.MonthCycle; i++)
             {
                 Console.WriteLine("-------- day " + i + " --------");
                 Console.WriteLine("name, sellIn, quality");
-                for (var j = 0; j < Items.Count; j++)
+                for (var j = 0; j < items.Count; j++)
                 {
-                    Console.WriteLine(Items[j].Name + ", " + Items[j].SellIn + ", " + Items[j].Quality);
+                    items[j].ShowItemInfo();
                 }
                 Console.WriteLine("");
                 itemProcessor.UpdateQuality();
